@@ -7,8 +7,8 @@
 
 
 @isset($NasaDetalhe)
-    <div id="div-img" class="text-center pb-5">
-        <div id="" class="img">
+    <div id="" class="text-center pb-5 img-nasa">
+        <div id="" class="">
             <img src="{{$NasaDetalhe->hdurl}}" class="rounded w-25" >
         </div>
         <div id="" class="rounded img-titulo">

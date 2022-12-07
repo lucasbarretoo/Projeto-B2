@@ -1,12 +1,11 @@
-.img {
-  position: relative !important;
+.img-nasa {
+  position: relative;
 }
 
 .img-titulo {
   background-color: rgba(255, 0, 0, 0.4);
-  width: 15%;
+  top: 70%;
+  left: 37.5%;
   color: white;
-  position: relative !important;
-  margin-top: -130px;
-  margin-left: 37.5%;
+  position: absolute;
 }
