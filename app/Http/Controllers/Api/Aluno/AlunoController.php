@@ -13,13 +13,11 @@ class AlunoController extends Controller{
         $ListaAluno = Aluno::get();
         return view('aluno.listar', compact('ListaAluno'));
     }
-    
     public function criar(){ 
         $Aluno = new Aluno();
         $ListaTurma = Turma::where('ativo', true)->get(); 
         return view('aluno.criar',compact('Aluno', 'ListaTurma'));
     }
-
     public function salvar(AlunoRequest $request){
         try{
             
