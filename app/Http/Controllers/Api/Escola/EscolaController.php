@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web\Escola;
+namespace App\Http\Controllers\Api\Escola;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Escola\Request as EscolaRequest;
