@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web\Nasa;
+namespace App\Http\Controllers\Api\Nasa;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
