@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web\Aluno;
+namespace App\Http\Controllers\Api\Aluno;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Aluno\Request as AlunoRequest;
