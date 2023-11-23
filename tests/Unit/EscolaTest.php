@@ -12,7 +12,7 @@ class EscolaTest extends TestCase
      *
      * @return void
      */
-   public function teste_check_if_school_column_is_correct(){
+   public function test_check_if_school_column_is_correct(){
         $escola = new Escola;
         $expected = [
             'nome',
