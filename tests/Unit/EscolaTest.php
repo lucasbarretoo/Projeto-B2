@@ -19,9 +19,7 @@ class EscolaTest extends TestCase
             'segmento',
             'endereco',
             'pais',
-            'max_alunos',
-            'created_at',
-            'updated_at'
+            'max_alunos'
         ];
 
         $arrayCompared = array_diff($expected, $escola->getFillable());
