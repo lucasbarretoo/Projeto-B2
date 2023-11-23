@@ -11,8 +11,24 @@ class EscolaTest extends TestCase
      *
      * @return void
      */
-    public function test_escola_cadastro()
+   public function testGettingAllEscolas()
     {
-        $this->assertTrue(true);
-    }
+            $response = $this->json('GET', '/escola');
+            $response->assertStatus(200);
+
+            $response->assertJsonStructure(
+                [
+                    [
+                            'id',
+                            'name',
+                            'segmento',
+                            'endereco',
+                            'pais',
+                            'max_alunos',
+                            'created_at',
+                            'updated_at'
+                    ]
+                ]
+            );
+        }
 }
