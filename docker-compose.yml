@@ -7,7 +7,6 @@ services:
     container_name: projeto-b2
     volumes:
       - ./:/projeto/
-
     network_mode: "host"
     extra_hosts:
       - "host.docker.internal:host-gateway"
